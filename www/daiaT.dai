@@ -1,0 +1,20 @@
+﻿-- format
+-- [text to recognize] | [text to display or execute] | [is text a command?]
+-- simple text --
+Roteiro|O roteiro para hoje inclui a visita de 1 médico na região de Higienópolis, 1 hospital na região dos jardins e 1 farmácia na região da Paulista. Gostaria de ouvir os nomes e endereços de qual grupo?|false
+Roteiro Médico|O médico M se localiza no endereço Av Higienopolis, 245 e existe uma pendencia para a visita Estudo Clinico do Produto A. O médico diminui prescrição do Produto B e tem diminuído prescrição da Classe terapêutica M01A.|false
+Roteiro Farmácia| A farmácia F se localiza no endereço Rua Peixoto Gomide, 600.  A farmácia possui potencial para compra do produto A. Diminui sua compra do produto B. Existe uma previsão de ruptura do produto C em 2 dias. A Meta de venda para esta farmácia esta em R$4 mil e ate o momento é R$0.|false
+Roteiro Hospital|O hospital H se localiza no endereço Rua Peixoto Gomide, 400.  A meta deste contato é a visita da CCIH para padronização do produto D.|false
+Meta|Sua meta de demanda no mês de Março é de R$40 mil. Até o dia 10, você possui R$12.000, o que corresponde a 30% de sua meta. Os seguintes produtos estão com a meta abaixo do esperado no período: Produto A, está com 4% da meta; Produto B esta com 8% da meta.|false
+Reativar Cadastro|Foram detectadas 5 farmácias sem registro de vendas nos últimos 6 meses, isso pode representar um problema de cadastro.|false
+Sem Cadastro|Foram detectadas 2 farmácias sem registro no histórico de demanda, isso pode representar um problema de cadastro.|false
+Substituição|Comparando a prescrição com a demanda do Produto A e do concorrente, os dados sugerem estar ocorrendo troca entre os produtos.|false
+Horizontalidade|Foi identificado entre os clientes do setor, uma horizontalização de 22% do produto A no mês anterior.|false
+Ruptura Real|Queda de demanda fora do padrão que sugere falta de produto em aproximadamente 3 clientes, ocasionando uma perda de vendas de 221 unidades no mês atual.|false
+Ruptura Provável|Projetando o giro do produto com os dados da ultima venda, existe a possibilidade de ruptura em 1 cliente nos próximos 2 dias.|false
+Largura e profundidade|Há ocorrências de problemas em relação à largura, profundidade e prescrição, qual deseja ouvir primeiro?|false
+Largura|Foi identificado que uma diminuição de médicos prescritores do Produto A enquanto os concorrentes se mantiveram estável.|false
+Profundidade|Identificamos que no último mês de análise, apesar de ter ocorrido um aumento de 4% sobre as prescrições do Produto A em relação ao período anterior, a participação em relação aos concorrentes selecionados, teve uma queda de 8%.|false
+Prescrição|Foram identificadas quedas no share de prescrições do Produto A em 91 micro regiões em relação ao mês passado, em sua maioria da especialidade Z. Neste mesmo período, houve um acréscimo de 29 médicos receitando o produto A e um decréscimo de 111 prescrições do produto.|false
+Mercado Crescimento|MAT - Mercado teve um crescimento de 8% em Unidades e 9% em R$ no. O Produto A obteve 4% em Unidades e 3% em R$.Mês - Mercado teve um crescimento de 7,8% em Unidades e 9,1% em R$ no. O Produto A obteve 5% em Unidades e 5,3% em R$.|false
+Mercado Market Share| MAT - O Produto A obteve 2,2% em Unidades e 3,1% em R$. Um ganho de 0,1% em Unidades e 0,2% em R$ Mês - O Produto A obteve 2,1% em Unidades e 3,0% em R$. Um ganho de 0,2% em Unidades|false
